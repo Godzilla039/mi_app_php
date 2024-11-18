@@ -1,0 +1,21 @@
+# Ignorar configuraciones del sistema operativo
+*.swp
+*.log
+*.bak
+*.tmp
+
+# Ignorar archivos del control de versiones
+.git
+.gitignore
+
+# Ignorar datos sensibles
+*.env
+
+# Ignorar cache y archivos temporales de desarrollo
+vendor/
+node_modules/
+*.sqlite
+*.db
+
+# Ignorar archivos de depuración
+debug.log
